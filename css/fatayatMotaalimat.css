@@ -1,0 +1,24 @@
+   .arrow-left-css::after{ /*white arrow*/
+      content: '';
+      position: absolute;
+      transform: rotate(-90deg);
+      border-bottom: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-left: 30px solid transparent;
+      border-top: 40px solid white;
+      bottom: -20px;
+      left: 50px;
+      z-index: -1;
+    } 
+       .arrow-right-css::after{ /*white arrow*/
+      content: '';
+      position: absolute;
+      transform: rotate(0deg);
+      border-bottom: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-left: 30px solid transparent;
+      border-top: 30px solid #fb64b6;
+      right: 10px;
+      bottom: -40px;
+      z-index: -1;
+    } 

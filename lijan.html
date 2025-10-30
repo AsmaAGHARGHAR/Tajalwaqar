@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+        <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!--CSS FILE-->
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/lijan.css">
+    <title>مبادرة تاج الوقار |
+         لجان المبادرة
+
+    </title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<!--=========================================================================================================================================================================-->
+<!--=========================================================================================================================================================================-->
+<body class=" w-[100%]" >
+    
+    <div class="fixed inset-0 w-full h-full bg-cover bg-center -z-10" style="background-image: url('images/backgroundS.png');" >
+        <!--Background image-->
+    </div>
+    <!--navbar-->
+    <div id="navbar"></div>
+
+<!--Title-->
+   <header > 
+        <div class="header inline-block flex justify-center p-[5px] text-center mt-[85px] md:text-[40px] sm:text-[32px] text-[28px] text-[#d13b6b] ">
+             <img src="images/hijabi.png" class="hijabi-icon" alt="">
+          <span>لجان المبادرة</span>
+        </div>
+    </header> 
+
+<!--all sections-->
+<main class=" mt-[20px] h-[100%] relative mb-[30px] mx-auto w-[100%] md:w-[80%] ">
+        <div class="overlay-pink"></div>
+    <div class="container">
+        <!--DIAGRAM-->
+        <div class="diagram">
+            <!--1st card-->
+            <div class="flip-card large-card">
+                <div class="flip-card-inner">
+                    <div class="pinkShadow flip-card-front">
+                        <span class="titles-large">المكتب العام</span>
+                    </div>
+                    <div class="whiteShadow flip-card-back">
+                        <span class="textes">عضواتها هن المسؤولات عن:<br> - اتخاذ القرارات المتعلقة بالمبادرة على جميع المستويات (انشاء فروع جديدة، تحديد تفاصيل الانضمام والشروط...)</span>
+                    </div>
+                </div>
+            </div>
+            <!--2nd card-->
+            <div class="flip-card large-card">
+                <div class="flip-card-inner">
+                    <div class="pinkShadow flip-card-front">
+                        <span class="titles-large">الإشراف العام</span>
+                    </div>
+                    <div class="whiteShadow flip-card-back">
+                        <span class="textes">عضواتها هن المسؤولات عن :<br>- الإشراف على عمل باقي المشرفات من اللجان الأخرى (تلقي التقارير من المشرفات، التواصل معهن...)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cards-container">
+                <!--3rd-->
+                <div class="flip-card card">
+                    <div class="flip-card-inner">
+                        <div class="pinkShadow flip-card-front">
+                            <span class="titles" style="padding: 10px; margin-right: 10px;">لجنة التَسميع</span>
+                            <img src="images/icon5.png" style="width: 85px; margin-bottom: 10px;" alt="">
+                        </div>
+                        <div class="whiteShadow flip-card-back">
+                            <span class="textes">عضواتها هن المسؤولات عن  :<br> - إعداد ورد الحفظ اليومي السماعي (إعداد الصوتيات حسب المساق ...)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--4th card-->
+                <div class="flip-card card">
+                    <div class="flip-card-inner">
+                        <div class="pinkShadow flip-card-front">
+                            <span class="titles" style="padding: 10px;  margin-right: 20px;">لجنة الكِتابة</span>
+                            <img src="images/icon4.png" style="width: 50px;" alt="">
+
+                        </div>
+                        <div class="whiteShadow flip-card-back">
+                            <span class="textes">عضواتها هن المسؤولات عن:<br>-  كتابة المنشورات (الإعلانات، خواطر تحفيزية ...)</span>
+                        </div>
+                    </div>
+                </div>
+                <!--5th card-->
+                <div class="flip-card card">
+                    <div class="flip-card-inner">
+                        <div class="pinkShadow flip-card-front">
+                            <span class="titles" style="padding: 10px;  margin-right: 10px;">لجنة التصميم</span>
+                            <img src="images/icon3.png" style="width: 30px;" alt="">
+
+                        </div>
+                        <div class="whiteShadow flip-card-back">
+                            <span class="textes">عضواتها هن المسؤولات عن :<br>
+                                - تصميم الفيديوهات (كتابة السيناريو, مونتاج ...) <br>
+                            </span>
+                            <button class="more" onclick="popoverbtn(popover3, overlay3)" id="popoverBtn3">قراءة المزيد</button>
+                        </div>
+                    </div>
+                </div>
+                                <div class="popover" id="popover3">
+                    <button onclick="closebtn(popover3, overlay3)" id="closeBtn3">x</button> <br>
+                    <div class="popover-head">
+                        <img src="images/icon3.png" style="width: 30px;" alt=""> 
+                    <span class="titles popover-title " style="padding: 10px;  margin: auto; text-align: center;">لجنة التصميم</span>
+                    </div> <br>
+                    <hr>
+                    <span class="textes">عضواتها هن المسؤولات عن :<br>
+                                - تصميم الفيديوهات (كتابة السيناريو, مونتاج ...) <br>
+                                - تصميم مختلف ما تحتاجه بقية اللجان (إعلانات الاختبارات , التسجيل ...)
+                    </span>
+                   
+                </div>
+                <!--6th card-->
+                <div class="flip-card card">
+                    <div class="flip-card-inner">
+                        <div class="pinkShadow flip-card-front">
+                            <span class="titles small exception" style="padding: 10px;  margin-right: 10px;  ">لجنة التنظيم <br>والتواصل </span>
+                            <img src="images/icon2.png" style="width: 30px; margin-bottom: 10px;" alt="">
+                        </div>
+                        <div class="whiteShadow flip-card-back">
+                            <span class="textes" style=" margin-bottom: 10px;">عضواتها هن المسؤولات عن :
+                                <br>- التواصل مع الطالبات</span>
+                            <button class="more" onclick="popoverbtn(popover2, overlay2)" id="popoverBtn2">قراءة المزيد</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="popover" id="popover2">
+                    <button onclick="closebtn(popover2, overlay2)" id="closeBtn2">x</button> <br>
+                    <div class="popover-head">
+                        <img src="images/icon2.png" style="width: 30px;" alt="">
+                    <span class="titles popover-title " style="padding: 10px;  margin: auto; text-align: center; ">لجنة التنظيم والتواصل </span>
+                    </div> <br>
+                    <hr>
+                    <span class="textes" >عضواتها هن المسؤولات عن :<br>- تنظيم التسجيل الرسمي والاستثنائي (تسجيل الطالبات التواصل معهن ...)
+                        <br>- تنظيم الطالبات على مجموعات الواتساب (ضم وإنشاء المجموعات ...)
+                        <br>- التواصل مع الطالبات
+
+                    </span>
+                </div>
+                <!--7th-->
+                <div class="flip-card card">
+                    <div class="flip-card-inner">
+                        <div class="pinkShadow flip-card-front">
+                            <span class="titles" style="padding: 10px; ">لجنة الاختبارات</span>
+                            <img src="images/icon1.png" style="width: 30px;" alt="">
+
+                        </div>
+                        <div class="whiteShadow flip-card-back">
+                            <span class="textes">عضواتها هن المسؤولات عن :<br>
+                              - إعداد الاختبارات
+                              <br>
+                              - إعداد أجوبة الاختبارات
+                              <br>
+                              - إعداد سلم التنقيط
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!--8th-->
+                <div class="flip-card card">
+                    <div class="flip-card-inner">
+                        <div class="pinkShadow flip-card-front">
+                            <span class="titles" style="padding: 10px;  ">لجنة البرنامج</span>
+                            <img src="images/icon7.png" style="width: 30px;" alt="">
+
+                        </div>
+                        <div class="whiteShadow flip-card-back">
+                            <span class="textes">عضواتها هن المسؤولات عن :<br> - تحديد برامج الحفظ والمراجعة</span>
+                        </div>
+                    </div>
+                </div>
+                <!--9th-->
+                <div class="flip-card card modified">
+                    <div class="flip-card-inner">
+                        <div class="pinkShadow flip-card-front flip-card-front-modified">
+                            <span class="titles" style="padding: 10px; ">لجنة الإشراف</span>
+                            <img src="images/icon6.png" style="width: 30px;" alt="">
+                        </div>
+                       
+                        <div class="whiteShadow flip-card-back">
+                            <span class="textes" style="font-size: 14px; margin-bottom: 10px;">عضواتها هن المسؤولات عن :   <br>- تسجيل حضور وغياب الطالبات</span>
+                            <button class="more" onclick="popoverbtn(popover1, overlay1)" id="popoverBtn">قراءة المزيد</button>
+                        </div>                       
+                    </div>
+                </div>
+                <div id="popover"  class="popover">
+                    <button onclick="closebtn(popover1, overlay1)" id="closeBtn">x</button> <br>
+                    <div class="popover-head">
+                        <img src="images/icon6.png" style="width: 70px;" alt="">
+                    <span class="titles popover-title " style="padding: 10px; text-align: center;">لجنة الإشراف</span>
+                    </div> <br>
+                    <hr>
+                    <span class="textes" style="font-size: 14px;">عضواتها هن المسؤولات عن :<br>- الإشراف على المجموعات (حلقات الحفظ والمراجعة...)<br>- مشاركة الإعلانات (الاختبارات, توقف الحفظ ...)<br>- التواصل مع الطالبات (إضافة وحذف الطالبات ...)</span>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!--
+        <img src="images/hijabi.png" class="hijabi"/>
+
+    -->
+    <!-- Overlay -->
+    <div id="overlay" onclick="overlayBlack(popover1, overlay1)" class="overlay"></div>
+    <div id="overlay2" onclick="overlayBlack(popover2, overlay2)" class="overlay"></div>
+    <div id="overlay3" onclick="overlayBlack(popover3, overlay3)" class="overlay"></div>
+
+    <script>
+        const cards = document.querySelectorAll(".flip-card-inner");
+cards.forEach(card => {
+  card.addEventListener("click", function (e) {
+    card.classList.toggle('is-flipped');
+  });
+});
+        const popoverBtn = document.getElementById('popoverBtn');
+        const popover1 = document.getElementById('popover');
+        const overlay1 = document.getElementById('overlay');
+        const popover2 = document.getElementById('popover2');
+        const overlay2 = document.getElementById('overlay2');
+        const popover3 = document.getElementById('popover3');
+        const overlay3 = document.getElementById('overlay3');
+
+
+
+
+
+
+        function popoverbtn(popover, overlay) {
+            popover.classList.add('active');
+            overlay.classList.add('active');
+        }
+        function closebtn(popover, overlay) {
+            popover.classList.remove('active');
+            overlay.classList.remove('active');
+        }
+        function overlayBlack(popover, overlay) {
+            popover.classList.remove('active');
+            overlay.classList.remove('active');
+        }
+    </script>
+</main>
+
+<!-- Footer -->
+       <div id="footer" class="relative bottom-[-200px] left-0"></div>
+    <script src="js/main.js"></script>
+</body>
+</html>

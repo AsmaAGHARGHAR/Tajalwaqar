@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--Fontawesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <!--CSS FILE-->
+  <link rel="stylesheet" href="css/template.css">
+</head>
+<body>
+  <nav class="fixed top-0 w-full z-[9999999999] px-[20px] py-[5px] flex items-center justify-between lg:bg-transparent bg-[#ef5689]">
+    <a href="index.html" class="inline-block p-[5px] h-[45px] w-[45px] rounded-full bg-white">
+      <img src="images/mini logo taj el waqar (1).png" alt="">
+    </a>
+
+    <!-- Hamburger Menu -->
+    <button id="menu-toggle" class="lg:hidden">
+      <svg class="menu-sym" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF">
+        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+      </svg>
+    </button>
+
+    <!-- Navigation Links -->
+    <ul id="menu" class="lg:p-0 pt-[10px] lg:relative absolute lg:top-[0px] top-[-999%] lg:left-[20px] left-[0px] lg:bg-transparent bg-[#ef5689] flex lg:flex-row lg:items-center flex-col lg:justify-between w-full lg:w-[55%]">
+      <li class="lg:rounded-[50px] lg:bg-[#ef5689] text-white lg:p-[3px_15px] p-[15px] hover:bg-[#d94a7a] transition-colors">
+        <a class="no-underline" href="about.html">من نحن</a>
+      </li>
+      <hr class="block lg:hidden">
+
+      <li class="lg:rounded-[50px] lg:bg-[#ef5689] text-white lg:p-[3px_15px] p-[15px] hover:bg-[#d94a7a] transition-colors">
+        <a class="no-underline" href="fouroua.html">فروع المبادرة</a>
+      </li>
+      <hr class="block lg:hidden">
+
+      <!-- Volunteer Link with Dropdown -->
+      <li class="relative lg:rounded-[50px] lg:bg-[#ef5689] text-white lg:p-[3px_15px] p-[15px] transition-colors">
+        <button id="toggleBtn" type="button" class="no-underline cursor-pointer w-full text-right">
+          تطوعي معنا
+        </button>
+
+        <!-- Dropdown Menu -->
+        <ul id="dropdownMenu" class="absolute right-0 top-full hidden bg-white text-black rounded-lg shadow-lg mt-2 w-[170px] z-[9999999999]">
+          <li class="px-4 py-2 hover:bg-pink-100 transition-colors">
+            <a href="https://docs.google.com/forms/d/xxxxxx" target="_blank">كأستاذة</a>
+          </li>
+          <li class="px-4 py-2 hover:bg-pink-100 transition-colors">
+            <a href="#" onclick="showPopup()">كمشرفة</a>
+          </li>
+        </ul>
+      </li>
+
+      <hr class="block lg:hidden">
+
+      <!-- Join Us Link -->
+      <li class="lg:rounded-[50px] lg:bg-[#ef5689] text-white lg:p-[3px_15px] p-[15px] hover:bg-[#d94a7a] transition-colors">
+        <a class="no-underline" href="https://docs.google.com/forms/d/xxxxxx" target="_blank">انضمي لنا</a>
+      </li>
+      <hr class="block lg:hidden">
+
+      <!-- Donate Link -->
+      <li class="lg:rounded-[50px] md:bg-[#ef5689] text-white lg:p-[3px_15px] p-[15px] hover:bg-[#d94a7a] transition-colors">
+        <a class="no-underline" href="#">تبرع للمبادرة</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Popup -->
+  <div id="popup" class="fixed inset-0 bg-black/50 hidden flex items-center justify-center z-50">
+    <div class="bg-white rounded-xl shadow-lg p-6 max-w-sm text-center">
+      <p class="text-lg font-medium mb-4">
+        نشكركنَّ على حرصكنّ<br>لا نحتاج حاليا مشرفات جدد
+      </p>
+      <button onclick="closePopup()" class="bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition">إغلاق</button>
+    </div>
+  </div>
+</body>
+</html>

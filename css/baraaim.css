@@ -1,0 +1,13 @@
+.medium{
+font-family: 'MadaniArabic-Medium' !important;
+}
+.marker::before{
+   content: '';
+  display: inline-block;
+  width: 15px; 
+  height: 15px;
+  background-image: url('../images/cheveron.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  margin-left: 10px;
+}

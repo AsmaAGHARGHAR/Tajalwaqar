@@ -1,0 +1,207 @@
+   .arrow-left-css::after{ /*white arrow*/
+      content: '';
+      position: absolute;
+      transform: rotate(-90deg);
+      border-bottom: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-left: 30px solid transparent;
+      border-top: 40px solid white;
+      bottom: -30px;
+      left: 50px;
+      bottom: -30px;
+      left: 50px;
+    } 
+    
+    .taj-sticker::after{
+        content: url('../images/دورة التجويد (42).png'); /*taj al wakar  sticker*/
+      position: absolute;
+      transform: scale(0.6);
+      bottom: -90px;
+      left: -10px;
+  
+    }
+   
+/*     @media(max-width:1280px){
+      .sticker-right-css::before{ 
+        content: url('../images/woman.png');
+        position: absolute;
+      transform: scale(0.15);
+      top: -150px;
+      right: -100px;
+      } 
+  } */
+  @media(max-width:1280px){
+
+    .sticker-left-css::before{ 
+    content: url('../images/woman.png');
+    position: absolute;
+    transform: scale(0.4);
+    top: -90px;
+    right: -50px;
+    border-radius: 50%;
+      }
+  }
+
+@media(max-width: 896px){
+  .table-container{
+  width: 100%;
+  }
+  .title-container{
+    width: 90%;
+  }
+  .info01, .info02{
+    padding: 0px !important; 
+    align-items: start;
+    gap: 10px; 
+  }
+  }
+
+.gold-marker::before{
+  content: '';
+  display: inline-block;
+  width: 20px; 
+  height: 20px; 
+  background-image: url('../images/sparkles.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  margin-left: 20px;
+}
+  .icons-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    margin-right: 10px;
+    top: 0;
+    left: 1%;
+    height: 100%;
+    z-index: 1;
+
+  }
+  .icons-left img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  .message-left-icons {
+    background-color: white;
+    color: black;
+    padding: 0px;
+    position: relative;
+    border-radius: 80px; 
+    padding: 20px;
+    padding-left: 50px; 
+  }
+  .message-left-icons::after{
+    content: '';
+    position: absolute;
+    transform: rotate(-90deg);
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-top: 40px solid white;
+    bottom: -30px;
+    left: 50px;
+    bottom: -30px;
+    left: 50px;
+  }
+  @media(max-width: 500px){
+    .icons-left{
+        flex-direction: row;
+        justify-content: center;
+        top: -30px;
+        left: -2%; 
+      }
+      .icons-left img{
+        background-color: transparent;
+      }
+  }
+  .message-left-icons ul li:nth-child(1){
+    list-style: none;
+  }
+  @media(max-width: 1000px){
+
+    .icons-left img{
+        margin: 10px;
+        height: 40px;
+        width: 40px;
+
+      }
+      .message-left-icons{
+        padding-right: 10px;
+        padding-left: 0px;
+        border-radius: 20px;
+    
+    }      
+      .message-left-icon::before{
+      content: url('../images/دورة التجويد (57).png');
+      position: absolute;
+      transform: scale(0.25);
+      top: -130px;
+      right: -100px;
+      background-color: pink;
+      border-radius: 50%;
+        }
+  }
+
+.pink-marker::before{
+  padding: 0;
+  content: '';
+  display: inline-block;
+  width: 30px; 
+  height: 30px; 
+  background-image: url('../images/دورة التجويد (32).png'); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  margin-left: 20px;
+  border-radius: 50%;
+  filter: drop-shadow(5px 5px 5px rgb(255, 2, 44)); 
+}
+
+.env-icon::after, .env-icon::before{
+content: url('../images/دورة التجويد (29).png'); /*taj al wakar  sticker*/
+position: relative;
+transform: scale(0.7);
+z-index: 1000000;
+}
+
+.sun::before {
+    content: '';
+    position: relative;
+    display: inline-block;
+    width: 35px; 
+    height: 35px; 
+    background-image: url('../images/sun.png');
+    background-size: contain; 
+    background-repeat: no-repeat;
+ }
+.moon::before {
+  content: '';
+  position: relative;
+  display: inline-block;
+  width: 35px; 
+  height: 35px; 
+  background-image: url('../images/moon.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat;
+}
+  .cad-icon::before{
+  content: '';
+  display: inline-block;
+  width: 30px; 
+  height: 30px; 
+  background-image: url('../images/cad.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  margin-left: 20px;
+  }
+
+
+@media(max-width: 450px){
+  .env-icon::before, .env-icon::after{
+    content: url('../images/دورة التجويد (29).png'); /*taj al wakar  sticker*/
+  position: relative;
+  transform: scale(0.3);
+  z-index: 1000000;
+  }
+}

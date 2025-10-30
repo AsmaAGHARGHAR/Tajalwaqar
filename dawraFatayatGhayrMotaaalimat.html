@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+        <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!--CSS FILE-->
+    <link rel="stylesheet" href="css/template.css">
+    <title> دورة الفتيات غير المتعلمات  </title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+     <link rel="stylesheet" href="dawra1.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            font-family: 'MadaniArabic-Regular', sans-serif;
+        }
+
+        .image-left,
+        .image-right {
+            position: relative;
+            width: 100%;
+        }
+
+        .image-left img {
+            float: left;
+        }
+
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 22.2px;
+            color: #53001a;
+        }
+
+        .text11 {
+            top: 50px;
+            left: 230px;
+            font-size: 22.2px;
+            color: #53001a;
+            font-weight: bold;
+        }
+
+        .table-bordered-rose {
+            table-layout: auto; /* <-- CHANGÉ DE fixed À auto */
+            width: 100%;
+        }
+
+        .table-bordered-rose th,
+        .table-bordered-rose td {
+            text-align: center;
+            vertical-align: middle;
+            padding: 10px;
+            word-break: normal !important;
+            white-space: normal !important;
+            overflow-wrap: break-word !important;
+        }
+
+        .table-bordered-rose td:nth-child(7),
+        .table-bordered-rose th:nth-child(7) {
+            width: 16.66%;
+        }
+
+        .custom-bullets {
+            list-style-type: none;
+            padding-right: 30px;
+            direction: rtl;
+        }
+
+        .custom-bullets li {
+            position: relative;
+            padding-right: 40px;
+            font-size: 16.6px;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .custom-bullets li::before {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 18px;
+            height: 18px;
+            background-image: url('images/cheveron.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .custom-bullet-alert {
+            position: relative;
+            padding-right: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            background-color: #ffb3d9 !important;
+            padding: 10px;
+            border-radius: 5px;
+            color: #53001a;
+        }
+
+        .custom-bullet-alert::before {
+            content: "";
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 25px;
+            height: 25px;
+            background-image: url('images/cheveron.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .vertical-text {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            white-space: nowrap;
+            font-size: 18px;
+            font-weight: bold;
+            margin: auto;
+        }
+
+        @media (max-width: 768px) {
+            .vertical-text {
+                writing-mode: horizontal-tb;
+                transform: rotate(0deg);
+                white-space: normal;
+                font-size: 16px;
+            }
+
+            .table-bordered-rose td,
+            .table-bordered-rose th {
+                font-size: 14px;
+                padding: 6px;
+                word-break: normal !important;
+                white-space: normal !important;
+                overflow-wrap: anywhere !important;
+            }
+        }
+        
+    </style>
+</head>
+
+<body class=" w-[100%]" >  
+    <div class="fixed inset-0 w-full h-full bg-cover bg-center -z-10" style="background-image: url('images/backgroundS.png');" >
+        <!--Background image-->
+    </div>
+    <!--navbar-->
+    <div id="navbar"></div>
+    <!--Title-->
+    <header > 
+        <div class=" inline-block flex justify-center p-[5px] text-center mt-[100px] md:text-[40px] sm:text-[28px] text-[26px] text-[#d13b6b] ">
+          دورة الفتيات غير المتعلمات 
+        </div>
+    </header> 
+    <!--all sections-->
+    <main class=" mt-[60px] mb-[30px] mx-auto w-[100%] md:w-[80%] ">
+        <div class="border-[1px] border-[#53001a] rounded-[15px] py-[10px] px-[15px] text-[19.6px] text-justify text-[#53001a] marker" style="margin-bottom: 20px;">
+            <div class="row align-items-center mb-4">
+                <div class="col-lg-12 col-md-12">
+                    <ul class="custom-bullets">
+                        <li>مبادرة تاج الوقار لحفظ القرآن الكريم بدأت بدورة الحفظ للنساء المتعلمات وقطعت معهن أشواطا مهمة لكنها لم تغفل عن فئة النساء اللواتي لم يحظين بالتعليم.</li>
+                        <li>لذا جاءت هذه الدورة موجهة للنساء غير المتعلمات لأجل مساعدتهن على حفظ ما تيسر من القرآن عن طريق السماع والتلقين بإذن الله.</li>
+                        <li>برنامج الحفظ يسير ومخفف ابتداء من آخر القرآن والسور الطويلة تُقسّم بشكل يراعي هذه الفئة من النساء.</li>
+                        <li>البرنامج الأسبوعي محكم التنظيم فيه حصتان واحدة للتلقين والمراجعة والأخرى للتسميع وتعلم حرف من حروف الهجاء.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="container-fluid alert d-flex">
+                <p class="custom-bullet-alert alert-link" style="padding-right: 40px;">
+                    الجدول اسفله يوضح طريقة الحفظ و المراجعة:
+                </p>
+            </div>
+            <div class="max-w-full overflow-x-auto my-[40px] scrollbar-thin">
+              <table class="font-bold text-center m-auto  border-separate text-[#53001a] border-spacing-[20px]">
+                    <thead>
+                        <tr>
+                            <th class="bg-pink-400 p-[5px] px-[40px] rounded-[10px] text-white">اليوم</th>
+                            <th class="border-[3px] border-pink-400 rounded-[8px] p-[10px] px-[30px]">الاثنين</th>
+                            <th class="border-[3px] border-pink-400 rounded-[8px] p-[10px] px-[30px]">الثلاثاء</th>
+                            <th class="border-[3px] border-pink-400 rounded-[8px] p-[10px] px-[30px]">الأربعاء</th>
+                            <th class="border-[3px] border-pink-400 rounded-[8px] p-[10px] px-[30px]">الخميس</th>
+                            <th class="border-[3px] border-pink-400 rounded-[8px] p-[10px] px-[30px]">الجمعة</th>
+                            <th class="border-[3px] border-pink-400 rounded-[8px] p-[10px] px-[30px]">السبت <br /> الأحد</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="bg-pink-400 p-[5px] px-[40px] rounded-[10px] text-white"> البرنامج</td>
+                            <td class="border-[3px] border-pink-400 rounded-[8px] p-[10px] px-[30px]">تلقن الطالبات السورة المطلوبة مع تكرار الآيات عدة مرات</td>
+                            <td class="border-[3px] border-pink-400 rounded-[8px] p-[10px] px-[30px]"> حفظ السورة عن طريق إعادة الاستماع للأوديو</td>
+                            <td class="border-[3px] border-pink-400 rounded-[8px] p-[10px] px-[30px]"> حفظ السورة عن طريق إعادة الاستماع للأوديو</td>
+                            <td class="border-[3px] border-pink-400 rounded-[8px] p-[10px] px-[30px]"> حفظ السورة عن طريق إعادة الاستماع للأوديو</td>
+                            <td class="border-[3px] border-pink-400 rounded-[8px] p-[10px] px-[30px]">
+                                استظهار السورة على الأستاذة <br /> <br />
+                                تعلم حرف من حروف الهجاء أو القاعدة النورانية
+                            </td>
+                            <td class="border-[3px] border-pink-400 rounded-[8px] p-[10px] px-[30px]">
+                                <div class="vertical-text">راحة</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </main> 
+    <!-- Footer -->
+     <div id="footer" class="relative bottom-[-200px] left-0"></div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
